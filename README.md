@@ -1,10 +1,11 @@
 # Tutorials
 Tutorials for new group members  
+Please click star in the right corner.
 
-## This repository has three training set, the sequence is:  
-1. MnistConvnet.ipynb  
-2. Convnets_with_small_datasets(cat_vs_dog).ipynb  
-3. Convnets_with_pretrained_datasets(cat_vs_dog).ipynb  
+## This repository has three training set, your learning sequence is:  
+1. MnistConvnet.ipynb(the dataset has been integrated in Keras)  
+2. Convnets_with_small_datasets(cat_vs_dog).ipynb(the dataset is in the server /storage/data/tutorials/dogs-vs-cats)  
+3. Convnets_with_pretrained_datasets(cat_vs_dog).ipynb(the dataset is in the server /storage/data/tutorials/dogs-vs-cats)  
 
 
 ## Connect to Lab Server
@@ -31,6 +32,15 @@ Open a new window in your local terminal or shell:
 ```
 $ssh -L 8080:localhost:8889 you@muon-neutrino.ps.uci.edu  
 $python3.6 -m jupyter notebook --no-browser --port=8889
-In your browser, 
-http://localhost:8080/
+```
+In your browser, http://localhost:8080/
+If it prompts a token, look for it in your console, copy and paste it and click "log in".   
+Navigate to your destination directory, open the training files as the sequence showing above.  
+Carefully read the comments and codes in them. Essential Jupyter shorcuts here:  
+```
+Ctrl+S - saves the notebook and checkpoint  
+"Enter" - switch to edit mode  
+h -  shows all keyboard shortcuts  
+a -	above new cell  
+b -	below new cell  
 ```
