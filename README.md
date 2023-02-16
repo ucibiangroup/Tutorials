@@ -1,5 +1,5 @@
 # Tutorials
-Tutorials for new group members  
+Tutorials for new group members in Bian Lab
 Please click star in the right corner.
 
 ## This repository has three training set, your learning sequence is:  
@@ -33,10 +33,12 @@ Open a new window in your local terminal or shell:
 $ssh -L 8080:localhost:8889 you@muon-neutrino.ps.uci.edu  
 $python3.6 -m jupyter notebook --no-browser --port=8889
 ```
-In your browser, http://localhost:8080/
+In your browser, http://localhost:8080/  
 If it prompts a token, look for it in your console, copy and paste it and click "log in".   
 Navigate to your destination directory, open the training files as the sequence showing above.  
-Carefully read the comments and codes in them. Essential Jupyter shorcuts here:  
+Click "Not Trust" on the right above first. Then carefully read the comments and codes in them. 
+
+Essential Jupyter shorcuts below:  
 ```
 Ctrl+S - saves the notebook and checkpoint  
 "Enter" - switch to edit mode  
