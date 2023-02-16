@@ -41,7 +41,7 @@ Click "Not Trust" on the right above first. Then carefully read the comments and
 Essential Jupyter shorcuts below:  
 ```
 Ctrl+S - saves the notebook and checkpoint  
-"Enter" - switch to edit mode  
+cmd + Enter - execute each cell  
 h -  shows all keyboard shortcuts  
 a -	above new cell  
 b -	below new cell  
