@@ -27,7 +27,7 @@ $cp -r training_files /home/stella
 ```
      
 ## Run Jupyter notebook checking the files and run
-In your terminal or shell:  
+Open a new window in your local terminal or shell:  
 ```
 $ssh -L 8080:localhost:8889 you@muon-neutrino.ps.uci.edu  
 $python3.6 -m jupyter notebook --no-browser --port=8889
