@@ -30,9 +30,11 @@ $cp -r training_files /home/stella
 ## Run Jupyter notebook checking the files and run
 Open a new window in your local terminal or shell:  
 ```
-$ssh -L 8080:localhost:8889 you@muon-neutrino.ps.uci.edu  
+$ssh -L 8080:localhost:8889 you@muon-neutrino.ps.uci.edu`  
+$cd ../../  
 $python3.6 -m jupyter notebook --no-browser --port=8889
 ```
+
 In your browser, http://localhost:8080/  
 If it prompts a token, look for it in your console, copy and paste it and click "log in".   
 Navigate to your destination directory, open the training files as the sequence showing above.  
