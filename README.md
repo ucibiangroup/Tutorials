@@ -25,6 +25,7 @@ You are not entitled to run at root or sudo.
 ```
 $cd ../../storage/data/tutorials/  
 $cp -r training_files /home/stella
+$cd ../../home/stella
 $pip3.6 install tensorflow==1.8.0 absl-py==0.9.0 tensorboard==1.8.0 keras==2.2.1
 ```
      
