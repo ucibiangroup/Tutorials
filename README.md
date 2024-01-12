@@ -2,6 +2,13 @@
 Tutorials for new group members in Bian Lab
 Please click star in the right corner.
 
+## Code Repos
+1. [NOvA Nue Energy](https://github.com/BenJarg/nova)
+2. [NOvA Numu Energy](https://github.com/BenJarg/nova_hadron_E)
+3. [DUNE Energy and Direction](https://github.com/ucibiangroup/DUNE_CNN_KinematicReco)
+
+Ask to be added if you have trouble seeing these.
+
 ## This repository has three training set, your learning sequence is:  
 1. MnistConvnet.ipynb(the dataset has been integrated in Keras)  
 2. Convnets_with_small_datasets(cat_vs_dog).ipynb(the dataset is in the server /storage/data/tutorials/dogs-vs-cats)  
